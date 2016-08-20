@@ -6,8 +6,12 @@
         "**/.editorconfig": true,
         "**/.gitignore": true,
         "**/.travis.yml": true,
-        "**/.DS_Store": true
-        //"**/*.js":{"when": "$(basename).ts"},
+        "**/.DS_Store": true,
+        "**/e2e":true,
+        "**/typings":true,
+        "**/node_modules":true,
+        "**/*.js":true,
+        "**/*.json":true
         //"**/*.js.map":true
     }
 }

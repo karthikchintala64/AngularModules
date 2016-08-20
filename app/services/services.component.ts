@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'my-services',
-    template: '<h1>Services</h1>'
+    templateUrl: 'templates/services.html'
 })
 export class ServicesComponent implements OnInit {
     constructor() { }
